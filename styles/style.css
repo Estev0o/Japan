@@ -88,7 +88,7 @@ p {
 .div__conteiner__left {
     width: 50%;
     border: thin silver solid;
-    padding: 1%;
+    padding: 0.5%;
     text-align: center;
 }
 
@@ -96,7 +96,7 @@ p {
     width: 50%;
     margin-left: 2%;
     border: thin silver solid;
-    padding: 1%;
+    padding: 0.5%;
     text-align: center;
 }
 
