@@ -1,0 +1,126 @@
+:root {
+    --cor-titulo: #F6F6F6;
+    --bg-link-hover: #f6f6f6cb;
+    --cor-link-hover: #272323c2;
+    --bg-main: rgba(243, 226, 193, 0.761);
+    --bg-default: #cecfcf88;
+    --icons: #25252521;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    background-image: url("/assets/fundo.jpg");
+    background-size: cover;
+    padding: 10%;
+    text-align: center;
+}
+
+.link-nav {
+    color: var(--cor-titulo);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    font-size: 2rem;
+    border: 2px solid var(--cor-titulo);
+    border-radius: 20px;
+}
+
+.link-nav:hover {
+    background-color: var(--bg-link-hover);
+    color: var(--cor-link-hover);
+    border: 2px solid var(--cor-link-hover);
+    transition: all linear 0.3s;
+}
+
+body {
+    background: rgba(155, 155, 155, 0.644);
+}
+
+.conteiner {
+
+    margin: 0.4% 7%;
+}
+
+main h1 {
+    font-size: 3rem;
+    color: #272323c2;
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #272323c2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    text-indent: 2em;
+    margin: 1em auto;
+}
+
+main {
+    box-shadow: 0px 0px 5px 2px #272323c2;
+    background-color: #F6F6F6;
+    padding: 0 4em 1em 4em;
+    font-size: 1.5rem;
+    line-height: 160%;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: smaller;
+    border: thin silver solid;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+
+
+/* Rodape */
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.icon i {
+    font-size: 2.5rem;
+}
+
+.btn {
+    display: inline-block;
+    width: 50px;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 40px;
+    border: 2px solid var(--icons);
+    color: var(--cor-link-hover);
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn:hover {
+    transition: all 0.5s ease-out;
+    border: 2px solid var(--cor-link-hover)
+}
+
+.copyright {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1em 0 0 0;
+    color: balck;
+    text-align: center;
+}
