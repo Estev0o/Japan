@@ -75,19 +75,38 @@ p {
     margin: 1em auto;
 }
 
-figure {
+
+
+.div__conteiner__img{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    font-style: italic;
-    font-size: smaller;
-    border: thin silver solid;
-    margin: 0.5em auto;
-    padding: 0.5em;
+    justify-content: center;
+    width: 100%;
 }
 
+.div__conteiner__left {
+    width: 50%;
+    border: thin silver solid;
+    padding: 1%;
+    text-align: center;
+}
 
+.div__conteiner__right{
+    width: 50%;
+    margin-left: 2%;
+    border: thin silver solid;
+    padding: 1%;
+    text-align: center;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.img2 {
+    width: 100%;
+}
 
 /* Rodape */
 footer {
