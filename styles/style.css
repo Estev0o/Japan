@@ -70,6 +70,11 @@ main {
     line-height: 160%;
 }
 
+p {
+    text-indent: 2em;
+    margin: 1em auto;
+}
+
 figure {
     display: flex;
     flex-direction: row;
