@@ -71,6 +71,10 @@ main {
     line-height: 160%;
 }
 
+section {
+    font-family: 'Montserrat', sans-serif;
+}
+
 p {
     text-indent: 2em;
     margin: 1em auto;
