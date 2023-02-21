@@ -1,0 +1,50 @@
+
+.icon i {
+    font-size: 2.5rem;
+}
+
+<div class="icon">
+                    <a href="https://www.instagram.com/vini_estevo/" class="btn" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Estev0o" class="btn" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vinicius-estevo/" class="btn q" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.btn {
+    display: inline-block;
+    width: 50px;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 40px;
+    border: 2px solid var(--icons);
+    color: var(--cor-link-hover);
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn:hover {
+    transition: all 0.5s ease-out;
+    border: 2px solid var(--cor-link-hover)
+}
+
+.copyright {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1em 0 0 0;
+    color: balck;
+    text-align: center;
+}
