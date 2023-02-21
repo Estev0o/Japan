@@ -8,7 +8,6 @@
     --bg-main: rgba(243, 226, 193, 0.761);
     --bg-default: #cecfcf88;
     --icons: #25252521;
-    --link--visited: #7900a82c;
 }
 
 * {
@@ -149,7 +148,7 @@ footer {
 }
 
 .rodape__link:visited {
-    color: var(--link--visited);
+    color: var(--color-txt-title);
 }
 
 .rodape__link:hover {
@@ -179,8 +178,64 @@ footer {
         box-shadow: 0px 0px 5px 2px #272323c2;
         background-color: #F6F6F6;
         padding: 1em;
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 160%;
     }
+
+    h2 {
+        font-size: 2.5rem;
+        color: var(--color-txt-title);
+        padding: 20px auto;
+        text-align: center;
+    }
+
+    p {
+        text-indent: 1.5em;
+        margin: 0.5em auto;
+
+    }
         
+    .div__conteiner__img{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .div__conteiner__left {
+        width: 90%;
+        border: thin silver solid;
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    .div__conteiner__right{
+        width: 91%;
+        border: thin silver solid;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .subtitulo {
+        margin: 2%;
+    }
+
+    .div__nav {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .rodapeNav__list {
+        padding: 2%;
+    }
+
+    .copyright {
+        font-size: 1em;
+        text-indent: 0;
+        margin: 0.5em auto;
+    }
 }
