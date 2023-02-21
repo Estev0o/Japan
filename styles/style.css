@@ -4,9 +4,11 @@
     --color-titulo: #F6F6F6;
     --bg-link-hover: #f6f6f6cb;
     --color-link-hover: #272323c2;
+    --color-txt-title: #272323c2;
     --bg-main: rgba(243, 226, 193, 0.761);
     --bg-default: #cecfcf88;
     --icons: #25252521;
+    
 }
 
 * {
@@ -15,7 +17,7 @@
 }
 
 
-nav {
+.nav__principal {
     background-image: url("/assets/fundo.jpg");
     background-size: cover;
     padding: 10%;
@@ -41,24 +43,24 @@ nav {
 }
 
 body {
-    background: rgba(155, 155, 155, 0.644);
+    background-color: rgba(155, 155, 155, 0.644);
 }
 
 .conteiner {
 
-    margin: 0.4% 7%;
+    margin: 0.4% 3%;
 }
 
 main h1 {
     font-size: 3rem;
-    color: #272323c2;
+    color: var(--color-txt-title);
     padding: 40px 0;
     text-align: center;
 }
 
 h2 {
     font-size: 3rem;
-    color: #272323c2;
+    color: var(--color-txt-title);
     padding: 20px 0;
     text-align: center;
 }
@@ -89,6 +91,7 @@ p {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 2%;
 }
 
 .div__conteiner__left {
@@ -115,37 +118,11 @@ p {
 }
 
 /* Rodape */
-footer {
-    width: 100%;
-    text-align: center;
-    margin: 2em 0;
+.div__nav {
+    display: flex;
+
 }
 
-.icon i {
-    font-size: 2.5rem;
-}
-
-.btn {
-    display: inline-block;
-    width: 50px;
-    padding: 12px;
-    margin: 5px;
-    border-radius: 40px;
-    border: 2px solid var(--icons);
-    color: var(--cor-link-hover);
-    text-decoration: none;
-    overflow: hidden;
-}
-
-.btn:hover {
-    transition: all 0.5s ease-out;
-    border: 2px solid var(--cor-link-hover)
-}
-
-.copyright {
-    font-size: 1.2rem;
-    font-weight: 400;
-    padding: 1em 0 0 0;
-    color: balck;
-    text-align: center;
+.rodapeNav__list {
+    
 }
