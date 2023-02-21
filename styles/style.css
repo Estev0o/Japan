@@ -8,7 +8,7 @@
     --bg-main: rgba(243, 226, 193, 0.761);
     --bg-default: #cecfcf88;
     --icons: #25252521;
-    
+    --link--visited: #7900a82c;
 }
 
 * {
@@ -48,7 +48,7 @@ body {
 
 .conteiner {
 
-    margin: 0.4% 3%;
+    margin: 0.4% 3.5%;
 }
 
 main h1 {
@@ -79,7 +79,7 @@ section {
 }
 
 p {
-    text-indent: 2em;
+    text-indent: 1em;
     margin: 1em auto;
 }
 
@@ -118,11 +118,40 @@ p {
 }
 
 /* Rodape */
+
+footer {
+    align-items: center;
+}
+
+.subtitulo {
+    margin: 1%;
+}
 .div__nav {
     display: flex;
-
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 .rodapeNav__list {
-    
+    padding: 1%;
+}
+
+.rodape__link {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.rodape__link:link {
+    color: var(--color-txt-title);
+}
+
+.rodape__link:visited {
+    color: var(--link--visited);
+}
+
+.rodape__link:hover {
+    text-decoration: underline;
 }
