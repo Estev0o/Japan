@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
-    --cor-titulo: #F6F6F6;
+    --color-titulo: #F6F6F6;
     --bg-link-hover: #f6f6f6cb;
-    --cor-link-hover: #272323c2;
+    --color-link-hover: #272323c2;
     --bg-main: rgba(243, 226, 193, 0.761);
     --bg-default: #cecfcf88;
     --icons: #25252521;
@@ -22,20 +23,20 @@ nav {
 }
 
 .link-nav {
-    color: var(--cor-titulo);
+    color: var(--color-titulo);
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
     margin: 5px;
     font-size: 2rem;
-    border: 2px solid var(--cor-titulo);
+    border: 2px solid var(--color-titulo);
     border-radius: 20px;
 }
 
 .link-nav:hover {
     background-color: var(--bg-link-hover);
     color: var(--cor-link-hover);
-    border: 2px solid var(--cor-link-hover);
+    border: 2px solid var(--color-link-hover);
     transition: all linear 0.3s;
 }
 
