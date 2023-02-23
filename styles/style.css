@@ -174,13 +174,15 @@ p {
     .nav__principal {
         display: flex;
         flex-flow: column wrap;
+        align-content: center;
         background-image: url("/assets/fundo.jpg");
         background-position: 45%;
     }
 
     .link-nav {
         border: 1px solid var(--color-titulo);
-        font-size: 1.5rem;
+        font-size: 2rem;
+        padding: 3%;
     }
 
     .conteiner {
