@@ -20,7 +20,7 @@
     background-image: url("/assets/fundo.jpg");
     background-size: cover;
     padding: 10%;
-    text-align: center;
+    
 }
 
 .link-nav {
@@ -32,6 +32,7 @@
     font-size: 2rem;
     border: 2px solid var(--color-titulo);
     border-radius: 20px;
+    text-align: center;
 }
 
 .link-nav:hover {
@@ -164,8 +165,11 @@ p {
         background-position: 45%;
     }
 
-    .conteiner {
+    .link-nav {
 
+    }
+
+    .conteiner {
         margin: 1%;
     }
 
