@@ -52,11 +52,8 @@ body {
     margin: 0.4% 3.5%;
 }
 
-.font__tile__nav {
-    
-}
 
-.font__title__text {
+.font__title__text, .font__title__nav{
     font-family: 'Gloock', serif;
     font-weight: 400;
 }
