@@ -160,6 +160,8 @@ p {
     .nav__principal {
         display: flex;
         flex-flow: column wrap;
+        background-image: url("/assets/fundo.jpg");
+        background-position: 45%;
     }
 
     .conteiner {
