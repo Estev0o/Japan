@@ -127,8 +127,15 @@ p {
 /* Rodape */
 
 
-.subtitulo {
+.subtitulo, .font__title__footer {
     margin: 1%;
+    font-family: Arial,sans-serif;
+    font-size: 1.6rem;
+}
+
+.font__footer {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 
 .rodape {
@@ -142,14 +149,13 @@ p {
 }
 
 .rodapeNav__list {
-    padding: 1%;
+    padding: 0 1% 1% 1%;
 }
 
 .rodape__link {
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    font-size: 1rem;
 }
 
 .rodape__link:link {
