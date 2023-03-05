@@ -23,7 +23,7 @@
     justify-content: center;
     background-image: url("/assets/fundo.jpg");
     background-size: cover;
-    padding: 5%;
+    padding: 10%;
     text-align: center;
 }
 
@@ -33,10 +33,14 @@
     font-weight: bold;
     padding: 1%;
     margin: 1%;
-    font-size: 2rem;
+    font-size: 2em;
     border: 2px solid var(--color-titulo);
     border-radius: 20px;
-    
+}
+
+.font__title__nav {
+    font-family: 'Gloock', serif;
+    font-weight: 400;
 }
 
 .link-nav:hover {
@@ -48,20 +52,25 @@
 
 body {
     background-color: rgba(155, 155, 155, 0.644);
+    font-family: sans-serif;
+
 }
 
 .conteiner {
     margin: 0.5% 3.5%;
-    
 }
 
 /* inicio do form */
 
+
+
 .font__title__text {
-    font-size: 3rem;
+    font-size: 2.5em;
     color: var(--color-txt-title);
     padding-top: 2%;
     text-align: center;
+    font-family: 'Gloock', serif;
+    font-weight: 400;
 }
 
 h3 {
@@ -76,6 +85,66 @@ h3 {
     box-shadow: 0px 0px 5px 2px #272323c2;
     background-color: #F6F6F6;
     padding: 0 4% 1% 4%;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 7vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
+
+strong {
+    font-weight: 550;
+}
+
+input, select,button {
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.campo input[type="text"], .campo input[type="email"] {
+    display: flex;
+    flex-direction: row wrap;
+    width: 50%;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.5em;
+    border:  2px solid var(--color-txt-title);
+    box-shadow: 2px 2px 2px var(--color-txt-title);
+}     
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: var(--bg-main);
+}
+
+
+.campo select {
+    padding-right: 1em;
+}
+
+.campo {   
+    margin: 5% 0;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    height: 15vh;
+    font-size: 1em;
+}
+
+button {
+    font-size: 1.2em;
+    color: var(--color-txt-title);
+    padding: 0.2rem 0.6rem;
+    border: 3px solid var(--color-txt-title);
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 3px solid rgba(155, 155, 155, 0.644);
+    text-shadow: 1px 1px 1px rgba(155, 155, 155, 0.644);
+}
+
