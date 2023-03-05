@@ -23,7 +23,7 @@
     justify-content: center;
     background-image: url("/assets/fundo.jpg");
     background-size: cover;
-    padding: 10%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -44,4 +44,38 @@
     color: var(--cor-link-hover);
     border: 2px solid var(--color-link-hover);
     transition: all linear 0.3s;
+}
+
+body {
+    background-color: rgba(155, 155, 155, 0.644);
+}
+
+.conteiner {
+    margin: 0.5% 3.5%;
+    
+}
+
+/* inicio do form */
+
+.font__title__text {
+    font-size: 3rem;
+    color: var(--color-txt-title);
+    padding-top: 2%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0%;
+    color: var(--color-txt-title);
+}
+
+.conteiner__form {
+    box-shadow: 0px 0px 5px 2px #272323c2;
+    background-color: #F6F6F6;
+    padding: 0 4% 1% 4%;
+    font-size: 1.5rem;
+    line-height: 7vh;
 }
