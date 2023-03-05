@@ -26,63 +26,73 @@
 
     <form>
         <fieldset>
-            <div>   
+            <div>
                 <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome"> 
+                <input type="text" name="nome" id="nome">
             </div>
             <div>
                 <label for="sobrenome">Sobrenome:</label>
                 <input type="text" name="sobrenome" id="sobrenome">
             </div>
         </fieldset>
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email">
-            </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </div>
 
+        <div>
+            <label>Informe seu gênero:</label>
+            <label>
+                <input type="radio" name="genero" value="masc"> Masculino
+            </label>
+            <label>
+                <input type="radio" name="genero" value="fem"> Feminino
+            </label>
+        </div>
+
+        <div>
+            <label>Selecione sua UF:</label>
+            <select id="uf">
+                <option selected disabled value="">Selecione</option>
+                <option value="RO">RO</option>
+                <option value="AC">AC</option>
+                <option value="AM">AM</option>
+                <option value="RR">RR</option>
+                <option value="PA">PA</option>
+                <option value="AP">AP</option>
+                <option value="TO">TO</option>
+                <option value="MA">MA</option>
+                <option value="PI">PI</option>
+                <option value="CE">CE</option>
+                <option value="RN">RN</option>
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="AL">AL</option>
+                <option value="SE">SE</option>
+                <option value="BA">BA</option>
+                <option value="MG">MG</option>
+                <option value="ES">ES</option>
+                <option value="RJ">RJ</option>
+                <option value="SP">SP</option>
+                <option value="PR">PR</option>
+                <option value="SC">SC</option>
+                <option value="RS">RS</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="GO">GO</option>
+                <option value="DF">DF</option>
+            </select>
+        </div>
+
+        <fieldset>
             <div>
-                <label>Informe seu gênero:</label>
-                <label>
-                    <input type="radio" name="genero" value="masc"> Masculino
-                </label>
-                <label>
-                    <input type="radio" name="genero" value="fem"> Feminino
-                </label>
+                <label>Selecione se deseja receber notificações</label>
+                <input type="radio" name="checkbox" value="sim">
+                <label for="sim">Sim</label>
+                <input type="radio" name="checkbox" value="nao">
+                <label for="nao">Não</label>
             </div>
-            
-            <div>
-                <label>Selecione sua UF:</label> 
-                <select id="uf">
-                    <option selected disabled value="">Selecione</option>
-                    <option value="RO">RO</option>
-                    <option value="AC">AC</option>
-                    <option value="AM">AM</option>
-                    <option value="RR">RR</option>
-                    <option value="PA">PA</option>
-                    <option value="AP">AP</option>
-                    <option value="TO">TO</option>
-                    <option value="MA">MA</option>
-                    <option value="PI">PI</option>
-                    <option value="CE">CE</option>
-                    <option value="RN">RN</option>
-                    <option value="PB">PB</option>
-                    <option value="PE">PE</option>
-                    <option value="AL">AL</option>
-                    <option value="SE">SE</option>
-                    <option value="BA">BA</option>
-                    <option value="MG">MG</option>
-                    <option value="ES">ES</option>
-                    <option value="RJ">RJ</option>
-                    <option value="SP">SP</option>
-                    <option value="PR">PR</option>
-                    <option value="SC">SC</option>
-                    <option value="RS">RS</option>
-                    <option value="MS">MS</option>
-                    <option value="MT">MT</option>
-                    <option value="GO">GO</option>
-                    <option value="DF">DF</option>
-                </select>
-            </div>
+        </fieldset>
+        
     </form>
-
 </body>
