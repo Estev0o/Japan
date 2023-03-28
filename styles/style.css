@@ -135,6 +135,10 @@ p {
     font-size: 1.6rem;
 }
 
+.copyright {
+    margin: 0.3em;
+}
+
 .font__footer {
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -151,7 +155,7 @@ p {
 }
 
 .rodapeNav__list {
-    padding: 0 1% 1% 1%;
+    padding: 0 0% 0.5% 0%;
 }
 
 .rodape__link {
