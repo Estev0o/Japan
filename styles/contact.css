@@ -12,37 +12,6 @@
     --icons: #25252521;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-.nav__principal {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    background-image: url("/assets/fundo.jpg");
-    background-size: cover;
-    padding: 10%;
-    text-align: center;
-}
-
-.link-nav {
-    color: var(--color-titulo);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 1%;
-    margin: 1%;
-    font-size: 2em;
-    border: 2px solid var(--color-titulo);
-    border-radius: 20px;
-}
-
-.font__title__nav {
-    font-family: 'Gloock', serif;
-    font-weight: 400;
-}
 
 .link-nav:hover {
     background-color: var(--bg-link-hover);
@@ -52,14 +21,9 @@
 }
 
 body {
-    background-color: rgba(155, 155, 155, 0.644);
     font-family: sans-serif;
-
 }
 
-.conteiner {
-    margin: 0.5% 3.5%;
-}
 
 /* inicio do form */
 
@@ -92,10 +56,6 @@ h3 {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-}
-
-strong {
-    font-weight: 550;
 }
 
 input,select,button {
