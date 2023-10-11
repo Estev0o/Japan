@@ -96,6 +96,7 @@ p {
 .div__conteiner__img{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
     width: 100%;
     margin-bottom: 2%;
@@ -114,6 +115,7 @@ p {
     border: thin silver solid;
     padding: 0.5%;
     text-align: center;
+    align-items: start;
 }
 
 .img1 {
