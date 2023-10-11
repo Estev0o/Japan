@@ -64,11 +64,10 @@ body {
 /* inicio do form */
 
 
-
 .font__title__text {
     font-size: 2.5em;
     color: var(--color-txt-title);
-    padding-top: 2%;
+    padding-top: 3%;
     text-align: center;
     font-family: 'Gloock', serif;
     font-weight: 400;
@@ -78,8 +77,9 @@ h3 {
     font-size: 1em;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 0%;
+    line-height: normal;
     color: var(--color-txt-title);
+    padding: 20px;
 }
 
 .conteiner__form {
@@ -98,10 +98,11 @@ strong {
     font-weight: 550;
 }
 
-input, select,button {
+input,select,button {
     border-radius: 5px;
     font-size: 0.9em;
 }
+
 
 .campo input[type="text"], .campo input[type="email"] {
     display: flex;
@@ -113,6 +114,7 @@ input, select,button {
     padding: 0.5em;
     border:  2px solid var(--color-txt-title);
     box-shadow: 2px 2px 2px var(--color-txt-title);
+    width: 100%;
 }     
 
 .campo input:focus, .campo select:focus, .campo textarea:focus {
@@ -122,6 +124,7 @@ input, select,button {
 
 .campo select {
     padding-right: 1em;
+    width: 50%;
 }
 
 .campo {   
@@ -133,6 +136,7 @@ textarea {
     width: 90%;
     height: 15vh;
     font-size: 1em;
+    resize: none;
 }
 
 button {
@@ -144,8 +148,50 @@ button {
     cursor: pointer;
 }
 
+.subtitulo, .font__title__footer {
+    margin: 1%;
+    font-family: Arial,sans-serif;
+    font-size: 1.6rem;
+    margin: 15px;
+}
+
 button:hover {
     border: 3px solid rgba(155, 155, 155, 0.644);
     text-shadow: 1px 1px 1px rgba(155, 155, 155, 0.644);
 }
 
+@media screen and (max-width: 480px) {
+    .nav__principal {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        background-image: url("/assets/fundo.jpg");
+        background-position: 45%;
+    }
+
+    .link-nav {
+        border: 1px solid var(--color-titulo);
+        font-size: 2rem;
+        padding: 3%;
+    }
+
+    .conteiner {
+        margin: 1%;
+    }
+
+    .font__title__text {
+        font-size: 1.5em;
+    }
+
+    .campo input[type="text"], .campo input[type="email"], .campo textarea {
+        width: 90%;
+    }
+
+    .campo select {
+        width: 200px;
+    }
+
+    button {
+        margin-bottom: 50px;
+    }
+}
